@@ -1,9 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import { useGlobalContext } from "./context/context";
-import { Home } from "./pages/Home";
-
+import { Home } from "./pages/home";
 
 export const App = () => {
+
   return (
     <div className="App">
       <Routes location={location} key={location.pathname}>
@@ -12,5 +11,3 @@ export const App = () => {
     </div>
   );
 };
-
-export default App;
