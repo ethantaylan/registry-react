@@ -224,14 +224,14 @@ export const Home = () => {
                     >
                       Se connecter
                     </Button>
-                    <Button
+                    {/* <Button
                       onClick={() => signInWithDiscord()}
                       className="mt-4 cursor-pointer"
                       type="submit"
                       variant="secondary"
                     >
                       Discord
-                    </Button>
+                    </Button> */}
                   </div>
                   <Button
                     onClick={() => handleCreateUser()}
